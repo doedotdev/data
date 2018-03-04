@@ -1,7 +1,0 @@
-clear; clc;
-bcpTable = readtable('bcp.xlsx');
-dataTable = bcpTable(1:2, 4:35);
-classTable = bcpTable(:,2);
-classTable = table2cell(classTable)
-
-decTree = fitctree(classTable, classTable);

@@ -1,0 +1,8 @@
+clc;clear;
+
+bcpTable = readtable('bcp.xlsx');
+
+dataTable = bcpTable(:, 4:35);
+classTable = bcpTable(,3);
+classTable = table2cell(classTable);
+dataTable = table2array(dataTable);
