@@ -2,7 +2,35 @@ clc;clear;
 
 bcpTable = readtable('bcp.xlsx');
 
-dataTable = bcpTable(:, 4:35);
-classTable = bcpTable(,3);
-classTable = table2cell(classTable);
-dataTable = table2array(dataTable);
+trainDataTable = bcpTable(1:132, 4:35);
+testDataTable = table2cell(bcpTable(133:198, 4:35));
+trainClassTable = table2cell(bcpTable(1:132, 3));
+testClassTable = table2cell(bcpTable(133:198, 3));
+
+% classTable = table2cell(classTable);
+% dataTable = table2array(dataTable);
+
+% tree = fitrtree(trainDataTable, trainClassTable);
+
+% Linear Regression for a single X, Y
+trainSingleData = table2array(bcpTable(1:132, 4)); % just for column 4
+trainSingleClass = table2array(bcpTable(1:132, 3));
+tempSumDataClass = trainSingleData.*trainSingleClass;
+tempDataSquared = trainSingleData .* trainSingleData;
+tempClassSquared = trainSingleClass .* trainSingleClass;
+newTable = [trainSingleData, trainSingleClass, tempSumDataClass,tempDataSquared, tempClassSquared];
+sumTable = sum(newTable);
+
+n = 132 % dont hardcode this homie
+
+% test
+sumTable(1) = 247
+sumTable(2) = 486
+sumTable(3) = 20485
+sumTable(4) = 11409
+s
+%end rtest
+
+aNumerator = (sumTable(2) * sumTable(4)) - (sumTable(1)*sumTable(3));
+aDenominator = (n*(sumTable(4)-(sumTable(1)*sumTable(1))));
+aValue = aNumerator/aDenominator
