@@ -21,7 +21,7 @@ TRANSACTIONS = [['A', 'B', 'C', 'E', 'G', 'H'],
 # define the first k items you want to be discovered
 # items beyond k in priority level will not make it into the tree and final output
 # if you set to -1 it will consider every item
-K = -1
+K = 3
 
 # get the frequency of each item in the raw data
 frequencyDict = defaultdict(int)
@@ -42,8 +42,8 @@ def takeN(n, iterable):
     else:
         return list(islice(iterable, n))
 
-print("\nTOP K FREQUENCIES WHERE K = " + str(K))
 topN = takeN(K, order)
+print("\nTOP K FREQUENCIES WHERE K = " + str(K))
 print(json.dumps(topN, indent=5))
 
 
