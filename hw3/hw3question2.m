@@ -22,7 +22,7 @@ for i = 1:length(testDataTable)
     answers = [answers, sum(tempMultArray)];
 end
 
-diffs = []
+diffs = [];
 for i = 1:66
     diff = (testClassTable(i) - answers(i));
     diffs = [diffs, diff];

@@ -55,10 +55,6 @@ for i = 1:4;
     disp(rValues + nValues);
     disp(total)
     disp('DATA')
-    % disp(TP);
-    % disp(TN);
-    % disp(FP);
-    % disp(FN);
     prec = TP/(TP+FP);
     accu = (TP+TN)/(TP+TN+FP+FN);
     reca = TP/(TP+FN);
