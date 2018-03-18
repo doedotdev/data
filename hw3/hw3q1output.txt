@@ -1,0 +1,269 @@
+>> hw3
+
+L =
+
+    0.3838
+
+     1
+
+Assertion
+   198
+
+   198
+
+DATA
+Prec
+   88.9610
+
+Acc
+   84.3434
+
+Recall
+   90.7285
+
+Assertion
+   198
+
+   198
+
+DATA
+Prec
+   68.1818
+
+Acc
+   84.3434
+
+Recall
+   63.8298
+
+     2
+
+Assertion
+   198
+
+   198
+
+DATA
+Prec
+   92.3611
+
+Acc
+   85.3535
+
+Recall
+   88.0795
+
+Assertion
+   198
+
+   198
+
+DATA
+Prec
+   66.6667
+
+Acc
+   85.3535
+
+Recall
+   76.5957
+
+     3
+
+Assertion
+   198
+
+   198
+
+DATA
+Prec
+   90.2778
+
+Acc
+   82.3232
+
+Recall
+   86.0927
+
+Assertion
+   198
+
+   198
+
+DATA
+Prec
+   61.1111
+
+Acc
+   82.3232
+
+Recall
+   70.2128
+
+     4
+
+Assertion
+   198
+
+   198
+
+DATA
+Prec
+   89.1026
+
+Acc
+   85.3535
+
+Recall
+   92.0530
+
+Assertion
+   198
+
+   198
+
+DATA
+Prec
+   71.4286
+
+Acc
+   85.3535
+
+Recall
+   63.8298
+
+>> hw3
+
+L =
+
+    0.4040
+
+     1
+
+Assertion
+   198
+
+   198
+
+DATA
+Prec
+   93.4307
+
+Acc
+   83.8384
+
+Recall
+   84.7682
+
+Assertion
+   198
+
+   198
+
+DATA
+Prec
+   62.2951
+
+Acc
+   83.8384
+
+Recall
+   80.8511
+
+     2
+
+Assertion
+   198
+
+   198
+
+DATA
+Prec
+   90.8497
+
+Acc
+   86.8687
+
+Recall
+   92.0530
+
+Assertion
+   198
+
+   198
+
+DATA
+Prec
+   73.3333
+
+Acc
+   86.8687
+
+Recall
+   70.2128
+
+     3
+
+Assertion
+   198
+
+   198
+
+DATA
+Prec
+   88.8158
+
+Acc
+   83.3333
+
+Recall
+   89.4040
+
+Assertion
+   198
+
+   198
+
+DATA
+Prec
+   65.2174
+
+Acc
+   83.3333
+
+Recall
+   63.8298
+
+     4
+
+Assertion
+   198
+
+   198
+
+DATA
+Prec
+   91.0959
+
+Acc
+   84.3434
+
+Recall
+   88.0795
+
+Assertion
+   198
+
+   198
+
+DATA
+Prec
+   65.3846
+
+Acc
+   84.3434
+
+Recall
+   72.3404
+
+>> 
