@@ -72,7 +72,7 @@ disp(answersTrain);
 
 diffsTrain = [];
 diffsSquaredTrain = [];
-for i = 1:132
+for i = 1:66
     diffTrain = (trainClassTable(i) - answersTrain(i));
     diffsTrain = [diffsTrain, diffTrain];
     diffsSquaredTrain = [ diffsSquaredTrain, diffTrain.^2 ];
@@ -82,17 +82,17 @@ disp(diffsTrain);
 disp('Average Error');
 disp(mean(abs(diffsTrain)));
 
-diffsTest = [];
-diffsSquaredTest = [];
+diffsTrain = [];
+diffsSquaredTrain = [];
 for i = 1:66
-    diffTest = (testClassTable(i) - answersTest(i));
-    diffsTest = [diffsTest, diffTest];
-    diffsSquaredTest = [ diffsSquaredTest, diffTest.^2];
+    diffTrain = (trainClassTable(i) - answersTrain(i));
+    diffsTrain = [diffsTrain, diffTrain];
+    diffsSquaredTrain = [ diffsSquaredTrain, diffTrain.^2 ];
 end
 disp('Get the difference between the regression value and the actual year value');
-disp(diffsTest);
+disp(diffsTrain);
 disp('Average Error');
-disp(mean(abs(diffsTest)));
+disp(mean(abs(diffsTrain)));
 
 
 %%%%%%%%%%%%%%%%%%%% Diffs All
@@ -111,9 +111,9 @@ disp(mean(abs(diffsAll)));
 disp('- - - - - - - - - - - - - - - - - - - -');
 disp('TEST SET VALUES');
 disp('Average Error');
-disp(mean(abs(diffTest)));
+disp(mean(abs(diffs)));
 disp('Mean Squared Error (MSE)');
-testMSE = mean(diffsSquaredTest);
+testMSE = mean(diffsSquared);
 disp(testMSE);
 disp('Square Root of MSE');
 disp(sqrt(testMSE));
@@ -130,13 +130,10 @@ disp(sqrt(trainMSE));
 
 disp('- - - - - - - - - - - - - - - - - - - -');
 disp('All Data VALUES COMBINED');
-disp('Average Error');
-disp(mean(abs(diffsAll)));
 disp('Mean Squared Error (MSE)');
 allMSE = mean(diffsSquaredAll);
 disp(allMSE);
 disp('Square Root of MSE');
 disp(sqrt(allMSE));
-
 
 
