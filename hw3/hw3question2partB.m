@@ -44,5 +44,6 @@ allEverythingTable = [allDataTable, allClassTable];
 % part1 = sortDataSetOnAttribute(1:ceil(dataSetLen/2), :);
 % part2 = sortDataSetOnAttribute(ceil(dataSetLen)/2+1:end,:);
 
-myFun(allEverythingTable, 0, 'root');
+builderString = 'Node: root w/ MSE: DNE';
+myFun(allEverythingTable, 0, 'root', builderString);
 

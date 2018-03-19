@@ -1,0 +1,450 @@
+-----CALCULATE NEW NODE----
+Data Size: Rows: 198 Cols: 33
+
+Node: node1n1404.4684 on level 1 with parent: root 
+IF INDEX: 30 <= 0.086890 return 41.050505 
+IF INDEX: 30 > 0.086890 return 75.000000 
+This Node has the MSE of: 1404.468422 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 99 Cols: 33
+
+Node: node2n1164.6911 on level 2 with parent: node1n1404.4684 
+IF INDEX: 30 <= 0.076645 return 37.540000 
+IF INDEX: 30 > 0.076645 return 27.000000 
+This Node has the MSE of: 1164.691111 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 50 Cols: 33
+
+Node: node3n1130.9512 on level 3 with parent: node2n1164.6911 
+IF INDEX: 15 <= 0.006165 return 37.240000 
+IF INDEX: 15 > 0.006165 return 61.000000 
+This Node has the MSE of: 1130.951200 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 25 Cols: 33
+
+Node: node4n858.2708 on LEAFlevel 4 with parent: node3n1130.9512 
+IF INDEX: 27 <= 0.280950 return 28.692308 
+IF INDEX: 27 > 0.280950 return 38.000000 
+This Node has the MSE of: 858.270769 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1164.6911w/ MSE:1164.6911 => Node:node3n1130.9512w/ MSE:1130.9512 => Node:node4n858.2708w/ MSE:858.2708
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 25 Cols: 33
+
+Node: node4n1106.5692 on level 4 with parent: node3n1130.9512 
+IF INDEX: 15 <= 0.008450 return 41.461538 
+IF INDEX: 15 > 0.008450 return 9.000000 
+This Node has the MSE of: 1106.569231 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 13 Cols: 33
+
+Node: node5n1174.9231 on level 5 with parent: node4n1106.5692 
+IF INDEX: 32 <= 1.500000 return 37.000000 
+IF INDEX: 32 > 1.500000 return 10.000000 
+This Node has the MSE of: 1174.923077 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 7 Cols: 33
+
+Node: node6n304.4286 on LEAFlevel 6 with parent: node5n1174.9231 
+IF INDEX: 25 <= 0.131950 return 27.500000 
+IF INDEX: 25 > 0.131950 return 61.000000 
+This Node has the MSE of: 304.428571 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1164.6911w/ MSE:1164.6911 => Node:node3n1130.9512w/ MSE:1130.9512 => Node:node4n1106.5692w/ MSE:1106.5692 => Node:node5n1174.9231w/ MSE:1174.9231 => Node:node6n304.4286w/ MSE:304.4286
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 6 Cols: 33
+
+Node: node6n433.1111 on LEAFlevel 6 with parent: node5n1174.9231 
+IF INDEX: 11 <= 0.866500 return 24.333333 
+IF INDEX: 11 > 0.866500 return 51.000000 
+This Node has the MSE of: 433.111111 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1164.6911w/ MSE:1164.6911 => Node:node3n1130.9512w/ MSE:1130.9512 => Node:node4n1106.5692w/ MSE:1106.5692 => Node:node5n1174.9231w/ MSE:1174.9231 => Node:node6n433.1111w/ MSE:433.1111
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 12 Cols: 33
+
+Node: node5n1327.0278 on level 5 with parent: node4n1106.5692 
+IF INDEX: 16 <= 0.031835 return 33.666667 
+IF INDEX: 16 > 0.031835 return 11.000000 
+This Node has the MSE of: 1327.027778 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 6 Cols: 33
+
+Node: node6n1753.1667 on level 6 with parent: node5n1327.0278 
+IF INDEX: 29 <= 0.231700 return 21.000000 
+IF INDEX: 29 > 0.231700 return 16.000000 
+This Node has the MSE of: 1753.166667 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 3 Cols: 33
+
+Node: node7n48.1667 on LEAFlevel 7 with parent: node6n1753.1667 
+IF INDEX: 18 <= 0.022265 return 17.500000 
+IF INDEX: 18 > 0.022265 return 28.000000 
+This Node has the MSE of: 48.166667 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1164.6911w/ MSE:1164.6911 => Node:node3n1130.9512w/ MSE:1130.9512 => Node:node4n1106.5692w/ MSE:1106.5692 => Node:node5n1327.0278w/ MSE:1327.0278 => Node:node6n1753.1667w/ MSE:1753.1667 => Node:node7n48.1667w/ MSE:48.1667
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 3 Cols: 33
+
+Node: node7n16.6667 on LEAFlevel 7 with parent: node6n1753.1667 
+IF INDEX: 2 <= 22.205000 return 11.000000 
+IF INDEX: 2 > 22.205000 return 117.000000 
+This Node has the MSE of: 16.666667 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1164.6911w/ MSE:1164.6911 => Node:node3n1130.9512w/ MSE:1130.9512 => Node:node4n1106.5692w/ MSE:1106.5692 => Node:node5n1327.0278w/ MSE:1327.0278 => Node:node6n1753.1667w/ MSE:1753.1667 => Node:node7n16.6667w/ MSE:16.6667
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 6 Cols: 33
+
+Node: node6n499.6111 on LEAFlevel 6 with parent: node5n1327.0278 
+IF INDEX: 15 <= 0.010305 return 18.666667 
+IF INDEX: 15 > 0.010305 return 62.000000 
+This Node has the MSE of: 499.611111 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1164.6911w/ MSE:1164.6911 => Node:node3n1130.9512w/ MSE:1130.9512 => Node:node4n1106.5692w/ MSE:1106.5692 => Node:node5n1327.0278w/ MSE:1327.0278 => Node:node6n499.6111w/ MSE:499.6111
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 49 Cols: 33
+
+Node: node3n1341.1665 on level 3 with parent: node2n1164.6911 
+IF INDEX: 30 <= 0.080975 return 27.440000 
+IF INDEX: 30 > 0.080975 return 31.000000 
+This Node has the MSE of: 1341.166531 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 25 Cols: 33
+
+Node: node4n539.3692 on LEAFlevel 4 with parent: node3n1341.1665 
+IF INDEX: 10 <= 0.059120 return 23.461538 
+IF INDEX: 10 > 0.059120 return 40.000000 
+This Node has the MSE of: 539.369231 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1164.6911w/ MSE:1164.6911 => Node:node3n1341.1665w/ MSE:1341.1665 => Node:node4n539.3692w/ MSE:539.3692
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 24 Cols: 33
+
+Node: node4n2518.1528 on level 4 with parent: node3n1341.1665 
+IF INDEX: 15 <= 0.005376 return 54.666667 
+IF INDEX: 15 > 0.005376 return 123.000000 
+This Node has the MSE of: 2518.152778 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 12 Cols: 33
+
+Node: node5n793.5417 on LEAFlevel 5 with parent: node4n2518.1528 
+IF INDEX: 12 <= 1.099500 return 36.500000 
+IF INDEX: 12 > 1.099500 return 65.000000 
+This Node has the MSE of: 793.541667 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1164.6911w/ MSE:1164.6911 => Node:node3n1341.1665w/ MSE:1341.1665 => Node:node4n2518.1528w/ MSE:2518.1528 => Node:node5n793.5417w/ MSE:793.5417
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 12 Cols: 33
+
+Node: node5n889.5278 on LEAFlevel 5 with parent: node4n2518.1528 
+IF INDEX: 10 <= 0.061725 return 49.666667 
+IF INDEX: 10 > 0.061725 return 108.000000 
+This Node has the MSE of: 889.527778 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1164.6911w/ MSE:1164.6911 => Node:node3n1341.1665w/ MSE:1341.1665 => Node:node4n2518.1528w/ MSE:2518.1528 => Node:node5n889.5278w/ MSE:889.5278
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 99 Cols: 33
+
+Node: node2n1519.5594 on level 2 with parent: node1n1404.4684 
+IF INDEX: 29 <= 0.344700 return 45.820000 
+IF INDEX: 29 > 0.344700 return 35.000000 
+This Node has the MSE of: 1519.559394 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 50 Cols: 33
+
+Node: node3n1843.4808 on level 3 with parent: node2n1519.5594 
+IF INDEX: 25 <= 0.150900 return 34.720000 
+IF INDEX: 25 > 0.150900 return 14.000000 
+This Node has the MSE of: 1843.480800 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 25 Cols: 33
+
+Node: node4n871.8892 on LEAFlevel 4 with parent: node3n1843.4808 
+IF INDEX: 15 <= 0.006206 return 32.461538 
+IF INDEX: 15 > 0.006206 return 19.000000 
+This Node has the MSE of: 871.889231 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1843.4808w/ MSE:1843.4808 => Node:node4n871.8892w/ MSE:871.8892
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 25 Cols: 33
+
+Node: node4n2256.5108 on level 4 with parent: node3n1843.4808 
+IF INDEX: 5 <= 0.112100 return 43.307692 
+IF INDEX: 5 > 0.112100 return 19.000000 
+This Node has the MSE of: 2256.510769 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 13 Cols: 33
+
+Node: node5n287.7473 on LEAFlevel 5 with parent: node4n2256.5108 
+IF INDEX: 30 <= 0.105800 return 23.428571 
+IF INDEX: 30 > 0.105800 return 68.000000 
+This Node has the MSE of: 287.747253 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1843.4808w/ MSE:1843.4808 => Node:node4n2256.5108w/ MSE:2256.5108 => Node:node5n287.7473w/ MSE:287.7473
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 12 Cols: 33
+
+Node: node5n1226.9861 on level 5 with parent: node4n2256.5108 
+IF INDEX: 10 <= 0.069730 return 63.833333 
+IF INDEX: 10 > 0.069730 return 98.000000 
+This Node has the MSE of: 1226.986111 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 6 Cols: 33
+
+Node: node6n351 on LEAFlevel 6 with parent: node5n1226.9861 
+IF INDEX: 5 <= 0.115650 return 29.000000 
+IF INDEX: 5 > 0.115650 return 106.000000 
+This Node has the MSE of: 351.000000 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1843.4808w/ MSE:1843.4808 => Node:node4n2256.5108w/ MSE:2256.5108 => Node:node5n1226.9861w/ MSE:1226.9861 => Node:node6n351w/ MSE:351
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 6 Cols: 33
+
+Node: node6n604 on LEAFlevel 6 with parent: node5n1226.9861 
+IF INDEX: 29 <= 0.320600 return 73.000000 
+IF INDEX: 29 > 0.320600 return 98.000000 
+This Node has the MSE of: 604.000000 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1843.4808w/ MSE:1843.4808 => Node:node4n2256.5108w/ MSE:2256.5108 => Node:node5n1226.9861w/ MSE:1226.9861 => Node:node6n604w/ MSE:604
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 49 Cols: 33
+
+Node: node3n1465.9502 on level 3 with parent: node2n1519.5594 
+IF INDEX: 29 <= 0.398400 return 48.760000 
+IF INDEX: 29 > 0.398400 return 52.000000 
+This Node has the MSE of: 1465.950204 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 25 Cols: 33
+
+Node: node4n2537.3631 on level 4 with parent: node3n1465.9502 
+IF INDEX: 30 <= 0.102050 return 37.384615 
+IF INDEX: 30 > 0.102050 return 114.000000 
+This Node has the MSE of: 2537.363077 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 13 Cols: 33
+
+Node: node5n1463.6484 on level 5 with parent: node4n2537.3631 
+IF INDEX: 30 <= 0.095910 return 34.285714 
+IF INDEX: 30 > 0.095910 return 76.000000 
+This Node has the MSE of: 1463.648352 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 7 Cols: 33
+
+Node: node6n1469.1071 on level 6 with parent: node5n1463.6484 
+IF INDEX: 30 <= 0.092050 return 27.250000 
+IF INDEX: 30 > 0.092050 return 8.000000 
+This Node has the MSE of: 1469.107143 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 4 Cols: 33
+
+Node: node7n184.25 on LEAFlevel 7 with parent: node6n1469.1071 
+IF INDEX: 20 <= 0.003621 return 6.000000 
+IF INDEX: 20 > 0.003621 return 35.000000 
+This Node has the MSE of: 184.250000 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1465.9502w/ MSE:1465.9502 => Node:node4n2537.3631w/ MSE:2537.3631 => Node:node5n1463.6484w/ MSE:1463.6484 => Node:node6n1469.1071w/ MSE:1469.1071 => Node:node7n184.25w/ MSE:184.25
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 3 Cols: 33
+
+Node: node7n60.1667 on LEAFlevel 7 with parent: node6n1469.1071 
+IF INDEX: 30 <= 0.094410 return 17.500000 
+IF INDEX: 30 > 0.094410 return 96.000000 
+This Node has the MSE of: 60.166667 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1465.9502w/ MSE:1465.9502 => Node:node4n2537.3631w/ MSE:2537.3631 => Node:node5n1463.6484w/ MSE:1463.6484 => Node:node6n1469.1071w/ MSE:1469.1071 => Node:node7n60.1667w/ MSE:60.1667
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 6 Cols: 33
+
+Node: node6n1464.3333 on level 6 with parent: node5n1463.6484 
+IF INDEX: 29 <= 0.363500 return 34.000000 
+IF INDEX: 29 > 0.363500 return 10.000000 
+This Node has the MSE of: 1464.333333 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 3 Cols: 33
+
+Node: node7n704.1667 on LEAFlevel 7 with parent: node6n1464.3333 
+IF INDEX: 29 <= 0.358750 return 35.500000 
+IF INDEX: 29 > 0.358750 return 31.000000 
+This Node has the MSE of: 704.166667 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1465.9502w/ MSE:1465.9502 => Node:node4n2537.3631w/ MSE:2537.3631 => Node:node5n1463.6484w/ MSE:1463.6484 => Node:node6n1464.3333w/ MSE:1464.3333 => Node:node7n704.1667w/ MSE:704.1667
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 3 Cols: 33
+
+Node: node7n384 on LEAFlevel 7 with parent: node6n1464.3333 
+IF INDEX: 25 <= 0.150250 return 34.000000 
+IF INDEX: 25 > 0.150250 return 76.000000 
+This Node has the MSE of: 384.000000 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1465.9502w/ MSE:1465.9502 => Node:node4n2537.3631w/ MSE:2537.3631 => Node:node5n1463.6484w/ MSE:1463.6484 => Node:node6n1464.3333w/ MSE:1464.3333 => Node:node7n384w/ MSE:384
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 12 Cols: 33
+
+Node: node5n1444.6944 on level 5 with parent: node4n2537.3631 
+IF INDEX: 29 <= 0.368500 return 51.333333 
+IF INDEX: 29 > 0.368500 return 62.000000 
+This Node has the MSE of: 1444.694444 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 6 Cols: 33
+
+Node: node6n187 on LEAFlevel 6 with parent: node5n1444.6944 
+IF INDEX: 17 <= 0.034865 return 35.000000 
+IF INDEX: 17 > 0.034865 return 53.000000 
+This Node has the MSE of: 187.000000 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1465.9502w/ MSE:1465.9502 => Node:node4n2537.3631w/ MSE:2537.3631 => Node:node5n1444.6944w/ MSE:1444.6944 => Node:node6n187w/ MSE:187
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 6 Cols: 33
+
+Node: node6n5326 on level 6 with parent: node5n1444.6944 
+IF INDEX: 29 <= 0.375850 return 62.000000 
+IF INDEX: 29 > 0.375850 return 3.000000 
+This Node has the MSE of: 5326.000000 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 3 Cols: 33
+
+Node: node7n450.6667 on LEAFlevel 7 with parent: node6n5326 
+IF INDEX: 29 <= 0.372250 return 36.000000 
+IF INDEX: 29 > 0.372250 return 114.000000 
+This Node has the MSE of: 450.666667 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1465.9502w/ MSE:1465.9502 => Node:node4n2537.3631w/ MSE:2537.3631 => Node:node5n1444.6944w/ MSE:1444.6944 => Node:node6n5326w/ MSE:5326 => Node:node7n450.6667w/ MSE:450.6667
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 3 Cols: 33
+
+Node: node7n2480.6667 on level 7 with parent: node6n5326 
+IF INDEX: 15 <= 0.006151 return 64.000000 
+IF INDEX: 15 > 0.006151 return 111.000000 
+This Node has the MSE of: 2480.666667 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 2 Cols: 33
+
+Node: node8n0 on LEAFlevel 8 with parent: node7n2480.6667 
+IF INDEX: 1 <= 15.250000 return 3.000000 
+IF INDEX: 1 > 15.250000 return 125.000000 
+This Node has the MSE of: 0.000000 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1465.9502w/ MSE:1465.9502 => Node:node4n2537.3631w/ MSE:2537.3631 => Node:node5n1444.6944w/ MSE:1444.6944 => Node:node6n5326w/ MSE:5326 => Node:node7n2480.6667w/ MSE:2480.6667 => Node:node8n0w/ MSE:0
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 1 Cols: 33
+
+Node: node111 on LEAFlevel 8 with parent: node7n2480.6667
+Return Value =  111.000000
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1465.9502w/ MSE:1465.9502 => Node:node4n2537.3631w/ MSE:2537.3631 => Node:node5n1444.6944w/ MSE:1444.6944 => Node:node6n5326w/ MSE:5326 => Node:node7n2480.6667w/ MSE:2480.6667 => Node:node8n0w/ MSE:0
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 24 Cols: 33
+
+Node: node4n1837.9549 on level 4 with parent: node3n1465.9502 
+IF INDEX: 9 <= 0.232150 return 60.083333 
+IF INDEX: 9 > 0.232150 return 116.000000 
+This Node has the MSE of: 1837.954861 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 12 Cols: 33
+
+Node: node5n1339.0694 on level 5 with parent: node4n1837.9549 
+IF INDEX: 29 <= 0.431800 return 56.166667 
+IF INDEX: 29 > 0.431800 return 76.000000 
+This Node has the MSE of: 1339.069444 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 6 Cols: 33
+
+Node: node6n517.6111 on LEAFlevel 6 with parent: node5n1339.0694 
+IF INDEX: 21 <= 17.570000 return 24.333333 
+IF INDEX: 21 > 17.570000 return 103.000000 
+This Node has the MSE of: 517.611111 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1465.9502w/ MSE:1465.9502 => Node:node4n1837.9549w/ MSE:1837.9549 => Node:node5n1339.0694w/ MSE:1339.0694 => Node:node6n517.6111w/ MSE:517.6111
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 6 Cols: 33
+
+Node: node6n1702.7778 on level 6 with parent: node5n1339.0694 
+IF INDEX: 10 <= 0.069435 return 51.333333 
+IF INDEX: 10 > 0.069435 return 38.000000 
+This Node has the MSE of: 1702.777778 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 3 Cols: 33
+
+Node: node7n661.5 on LEAFlevel 7 with parent: node6n1702.7778 
+IF INDEX: 25 <= 0.155550 return 40.500000 
+IF INDEX: 25 > 0.155550 return 73.000000 
+This Node has the MSE of: 661.500000 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1465.9502w/ MSE:1465.9502 => Node:node4n1837.9549w/ MSE:1837.9549 => Node:node5n1339.0694w/ MSE:1339.0694 => Node:node6n1702.7778w/ MSE:1702.7778 => Node:node7n661.5w/ MSE:661.5
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 3 Cols: 33
+
+Node: node7n240.6667 on LEAFlevel 7 with parent: node6n1702.7778 
+IF INDEX: 29 <= 0.459650 return 57.000000 
+IF INDEX: 29 > 0.459650 return 116.000000 
+This Node has the MSE of: 240.666667 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1465.9502w/ MSE:1465.9502 => Node:node4n1837.9549w/ MSE:1837.9549 => Node:node5n1339.0694w/ MSE:1339.0694 => Node:node6n1702.7778w/ MSE:1702.7778 => Node:node7n240.6667w/ MSE:240.6667
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 12 Cols: 33
+
+Node: node5n1296.8194 on level 5 with parent: node4n1837.9549 
+IF INDEX: 25 <= 0.153950 return 69.166667 
+IF INDEX: 25 > 0.153950 return 116.000000 
+This Node has the MSE of: 1296.819444 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 6 Cols: 33
+
+Node: node6n756.9444 on LEAFlevel 6 with parent: node5n1296.8194 
+IF INDEX: 4 <= 930.200000 return 49.666667 
+IF INDEX: 4 > 930.200000 return 97.000000 
+This Node has the MSE of: 756.944444 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1465.9502w/ MSE:1465.9502 => Node:node4n1837.9549w/ MSE:1837.9549 => Node:node5n1296.8194w/ MSE:1296.8194 => Node:node6n756.9444w/ MSE:756.9444
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 6 Cols: 33
+
+Node: node6n1632.6667 on level 6 with parent: node5n1296.8194 
+IF INDEX: 5 <= 0.121450 return 81.000000 
+IF INDEX: 5 > 0.121450 return 58.000000 
+This Node has the MSE of: 1632.666667 which is over threshold. Calculate MORE Nodes. 
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 3 Cols: 33
+
+Node: node7n4.1667 on LEAFlevel 7 with parent: node6n1632.6667 
+IF INDEX: 9 <= 0.280450 return 63.500000 
+IF INDEX: 9 > 0.280450 return 116.000000 
+This Node has the MSE of: 4.166667 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1465.9502w/ MSE:1465.9502 => Node:node4n1837.9549w/ MSE:1837.9549 => Node:node5n1296.8194w/ MSE:1296.8194 => Node:node6n1632.6667w/ MSE:1632.6667 => Node:node7n4.1667w/ MSE:4.1667
+
+-----CALCULATE NEW NODE----
+Data Size: Rows: 3 Cols: 33
+
+Node: node7n620.1667 on LEAFlevel 7 with parent: node6n1632.6667 
+IF INDEX: 31 <= 2.000000 return 88.500000 
+IF INDEX: 31 > 2.000000 return 123.000000 
+This Node has the MSE of: 620.166667 which is under threshold. This is a LEAF. 
+LEAF: Node: root w/ MSE: DNE => Node:node1n1404.4684w/ MSE:1404.4684 => Node:node2n1519.5594w/ MSE:1519.5594 => Node:node3n1465.9502w/ MSE:1465.9502 => Node:node4n1837.9549w/ MSE:1837.9549 => Node:node5n1296.8194w/ MSE:1296.8194 => Node:node6n1632.6667w/ MSE:1632.6667 => Node:node7n620.1667w/ MSE:620.1667
+
+>> 
