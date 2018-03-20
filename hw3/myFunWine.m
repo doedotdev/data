@@ -1,6 +1,5 @@
-function x = recursiveSplit(allEverythingTable, level, parent, builderString, lr)
+function x = recursiveSplit(allEverythingTable, level, parent, builderString)
     disp('-----CALCULATE NEW NODE----');
-    disp(lr);
     sz = size(allEverythingTable);
     rows = sz(1);
     cols = sz(2);
@@ -17,11 +16,7 @@ function x = recursiveSplit(allEverythingTable, level, parent, builderString, lr
         end
 
         bestIndex = find(coeffs == max(coeffs));
-        if (numel(bestIndex) == 0) 
-            bestIndex = 11
-        else
-            bestIndex = bestIndex(1);
-        end
+        bestIndex = bestIndex(1);
         
 
         sortDataSetOnAttribute = sortrows(allEverythingTable, bestIndex);
@@ -61,15 +56,15 @@ function x = recursiveSplit(allEverythingTable, level, parent, builderString, lr
 
         uniqueNodeValue = strcat('node',num2str(level),'n',num2str(MSE));
 
-        if (MSE > .8)
+        if (MSE > 1)
             fprintf('Node: %s on level %i with parent: %s \n', uniqueNodeValue, level, parent);
             fprintf('IF INDEX: %i <= %f return %f \n',bestIndex, valSplit, meanLeft);
             fprintf('IF INDEX: %i > %f return %f \n',bestIndex, valSplit, meanRight);
             fprintf('This Node has the MSE of: %f which is over threshold. Calculate MORE Nodes. \n\n', MSE);
             buildStr = strcat(' Node:',uniqueNodeValue,'w/ MSE:', num2str(MSE));
             builderString = strcat(builderString,' =>',' ',buildStr);
-            myFun(newTestDataLeft, level, uniqueNodeValue, builderString, 'left');
-            myFun(newTestDataRight, level, uniqueNodeValue, builderString,'right');
+            myFun(newTestDataLeft, level, uniqueNodeValue, builderString);
+            myFun(newTestDataRight, level, uniqueNodeValue, builderString);
         else
             fprintf('Node: %s on LEAFlevel %i with parent: %s \n', uniqueNodeValue, level, parent);
             fprintf('IF INDEX: %i <= %f return %f \n',bestIndex, valSplit, meanLeft);
